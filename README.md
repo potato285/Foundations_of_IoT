@@ -58,9 +58,4 @@ All STM32 projects are configured via STM32CubeMX and built with ARM Keil MDK (u
 | **CAT13** | BME280 Sensor Interfacing via I²C | STM32F401RE (Nucleo) | Bosch BME280 sensor driver with compensated temperature, pressure & humidity reading. |
 | **CAT14** | BME280 & ESP8266 MQTT Telemetry | STM32F401RE + ESP8266 | Custom ESP8266 AT API publishing BME280 telemetry over MQTT. |
 
----
-
-## Toolchains & Development Environments
-- **8051**: Keil µVision (C51 Compiler V9.60, BL51 Linker, OH51 Object-to-Hex).
-- **STM32**: STM32CubeMX, Keil MDK-ARM (ARMCC / ArmClang).
 
