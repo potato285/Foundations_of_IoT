@@ -1,4 +1,4 @@
-# Keil µVision / ARM / 8051 Output Files
+﻿# Keil µVision / ARM / 8051 Output Files
 *.obj
 *.OBJ
 *.o
@@ -23,7 +23,7 @@
 *.uvoptx.bak
 *.uvprojx.bak
 
-# Keep Compiled Binaries & Projects
+# Keep Compiled Binaries, Configurations & Startups
 !*.hex
 !*.HEX
 !*.bin
@@ -32,13 +32,23 @@
 !*.uvopt
 !*.uvoptx
 !*.ioc
+!*.mxproject
+!.mxproject
 !*.s
 !STARTUP.A51
 !.gitkeep
+!README.md
+!Objects/
+!Objects/*.hex
+!MDK-ARM/
+!MDK-ARM/*.uvprojx
+!MDK-ARM/*.uvoptx
+!MDK-ARM/*.s
+!MDK-ARM/*.hex
+!MDK-ARM/*/*.hex
 
 # Operating System / IDE artifacts
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
-
